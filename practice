@@ -1,0 +1,12 @@
+a = input("first number:")
+b = input("2nd Number")
+c = int(a) + int(b)
+
+print(c)
+
+if c < 10:
+        print(" lessthan")
+else:
+        print(" greater than")
+
+
