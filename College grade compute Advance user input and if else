@@ -1,0 +1,25 @@
+
+#COLLEGE GRADE COUNTER
+grade1 = input("Enter your 1st subject Grade: ")
+grade2 = input("Enter your 2nd subject Grade: ")
+grade3 = input("Enter your 3rd subject Grade: ")
+grade4 = input("Enter your 4th subject Grade: ")
+grade5 = input("Enter your 5th subject Grade: ")
+grade6 = input("Enter your 6th subject Grade: ")
+grade7 = input("Enter your 7th subject Grade: ")
+
+
+
+resultgrade = float(grade1) + float(grade2) + float(grade3) + float(grade4) + float(grade5) + float(grade6) + float(grade7)
+
+
+subj = int(7)
+final = resultgrade / subj
+print ("Final GWA",float(final))
+
+if final <= float(1.25):
+        print('You are Suma cumlaude')
+elif final <= float(1.50): 
+        print('You are Magna Cum Laude')
+elif final <= float(1.75):
+        print('you are cumlaude')
